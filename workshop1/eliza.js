@@ -28,25 +28,25 @@
  */
 
 var rules = {
-  "~*x hello ~*y": [
-    "How do you do. Please state your problem."
+  "~*x eliza ~*y": [
+    "Wassup?"
   ],
-  "~*x computer ~*y": [
-    "Do computers worry you?",
-    "What do you think about machines have to do with your problem?",
-    "Don't you think computers can help people",
-    "Why do you mention computers?",
-    "What about computers worries you?",
-    "What do you think about computers?",
-    "What do you think machines have to do with your problem?",
+  "~*x nothing ~*y": [
+    "Are bored?",
+    "Need something to do?",
+    "Write me a poem",
+    "Boredom is caused by one's self?",
+    "What would you like to do?",
+    "Need a companion?",
+    "Awwweee, poor baby?",
   ],
-  "~*x name ~*y": [
-    "I am not interested in names",
+  "~*x no ~*y": [
+    "bye bye then",
   ],
-  "~*x sorry ~*y": [
-    "Please don't apologize",
-    "Apologies are not necessary",
-    "What feelings do you have when you apologize",
+  "~*x yes ~*y": [
+    "I will be your friend",
+    "find your inner being",
+    "doing nothing is still doing something",
   ],
   "~*x I remember ~*y": [
     "Do you often think of ~y?",
